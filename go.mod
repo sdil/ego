@@ -23,6 +23,8 @@ require (
 	google.golang.org/protobuf v1.35.2
 )
 
+require github.com/aws/smithy-go v1.22.1 // indirect
+
 require (
 	connectrpc.com/connect v1.17.0 // indirect
 	dario.cat/mergo v1.0.1 // indirect
@@ -31,6 +33,8 @@ require (
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
 	github.com/RoaringBitmap/roaring v1.9.4 // indirect
 	github.com/armon/go-metrics v0.4.1 // indirect
+	github.com/aws/aws-sdk-go v1.55.5
+	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.38.0
 	github.com/bits-and-blooms/bitset v1.19.1 // indirect
 	github.com/buraksezer/consistent v0.10.0 // indirect
 	github.com/buraksezer/olric v0.5.6-0.20240925183822-6ca0e20256e0 // indirect
